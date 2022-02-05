@@ -264,3 +264,5 @@ while True:
             particle.move()
 
 delay = raw_input("Press enter to finish. > ")
+if __name__ == '__game__':
+    GalaxyWar.run()
